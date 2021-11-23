@@ -27,6 +27,10 @@
 		CA13B73C274D0603005BC79F /* MeowNails_WatchKit_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA13B73B274D0603005BC79F /* MeowNails_WatchKit_AppTests.swift */; };
 		CA13B746274D0604005BC79F /* MeowNails_WatchKit_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA13B745274D0604005BC79F /* MeowNails_WatchKit_AppUITests.swift */; };
 		CA13B748274D0604005BC79F /* MeowNails_WatchKit_AppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA13B747274D0604005BC79F /* MeowNails_WatchKit_AppUITestsLaunchTests.swift */; };
+		CA13B765274D08D9005BC79F /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA13B764274D08D9005BC79F /* Launch Screen.storyboard */; };
+		CAB2B24F274D355900A2DC40 /* BookingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAB2B24E274D355900A2DC40 /* BookingView.swift */; };
+		CAB2B251274D3B0100A2DC40 /* DatePickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAB2B250274D3B0100A2DC40 /* DatePickerView.swift */; };
+		CAB2B253274D3B0D00A2DC40 /* TimePickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAB2B252274D3B0D00A2DC40 /* TimePickerView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -127,6 +131,10 @@
 		CA13B741274D0604005BC79F /* MeowNails WatchKit AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "MeowNails WatchKit AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CA13B745274D0604005BC79F /* MeowNails_WatchKit_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeowNails_WatchKit_AppUITests.swift; sourceTree = "<group>"; };
 		CA13B747274D0604005BC79F /* MeowNails_WatchKit_AppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeowNails_WatchKit_AppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		CA13B764274D08D9005BC79F /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		CAB2B24E274D355900A2DC40 /* BookingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookingView.swift; sourceTree = "<group>"; };
+		CAB2B250274D3B0100A2DC40 /* DatePickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatePickerView.swift; sourceTree = "<group>"; };
+		CAB2B252274D3B0D00A2DC40 /* TimePickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimePickerView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -208,6 +216,10 @@
 			children = (
 				CA13B6F1274D0600005BC79F /* MeowNailsApp.swift */,
 				CA13B6F3274D0600005BC79F /* ContentView.swift */,
+				CAB2B24E274D355900A2DC40 /* BookingView.swift */,
+				CAB2B250274D3B0100A2DC40 /* DatePickerView.swift */,
+				CAB2B252274D3B0D00A2DC40 /* TimePickerView.swift */,
+				CA13B764274D08D9005BC79F /* Launch Screen.storyboard */,
 				CA13B6F5274D0601005BC79F /* Assets.xcassets */,
 				CA13B6F7274D0601005BC79F /* Preview Content */,
 			);
@@ -482,6 +494,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CA13B765274D08D9005BC79F /* Launch Screen.storyboard in Resources */,
 				CA13B6F9274D0601005BC79F /* Preview Assets.xcassets in Resources */,
 				CA13B6F6274D0601005BC79F /* Assets.xcassets in Resources */,
 			);
@@ -539,7 +552,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CAB2B24F274D355900A2DC40 /* BookingView.swift in Sources */,
 				CA13B6F4274D0600005BC79F /* ContentView.swift in Sources */,
+				CAB2B251274D3B0100A2DC40 /* DatePickerView.swift in Sources */,
+				CAB2B253274D3B0D00A2DC40 /* TimePickerView.swift in Sources */,
 				CA13B6F2274D0600005BC79F /* MeowNailsApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -680,6 +696,7 @@
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "Mari's Meow Nails";
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
@@ -732,6 +749,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "Mari's Meow Nails";
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
 			};
@@ -869,6 +887,7 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
@@ -878,11 +897,11 @@
 				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.imranhajiyev.MeowNails;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = MeowNails;
 				SDKROOT = iphoneos;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -900,6 +919,7 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
@@ -909,11 +929,11 @@
 				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.imranhajiyev.MeowNails;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = MeowNails;
 				SDKROOT = iphoneos;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
