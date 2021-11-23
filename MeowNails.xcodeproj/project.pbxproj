@@ -1,0 +1,1205 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CA13B6F2274D0600005BC79F /* MeowNailsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA13B6F1274D0600005BC79F /* MeowNailsApp.swift */; };
+		CA13B6F4274D0600005BC79F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA13B6F3274D0600005BC79F /* ContentView.swift */; };
+		CA13B6F6274D0601005BC79F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CA13B6F5274D0601005BC79F /* Assets.xcassets */; };
+		CA13B6F9274D0601005BC79F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CA13B6F8274D0601005BC79F /* Preview Assets.xcassets */; };
+		CA13B703274D0601005BC79F /* MeowNailsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA13B702274D0601005BC79F /* MeowNailsTests.swift */; };
+		CA13B70D274D0601005BC79F /* MeowNailsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA13B70C274D0601005BC79F /* MeowNailsUITests.swift */; };
+		CA13B70F274D0601005BC79F /* MeowNailsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA13B70E274D0601005BC79F /* MeowNailsUITestsLaunchTests.swift */; };
+		CA13B713274D0601005BC79F /* MeowNails WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = CA13B712274D0601005BC79F /* MeowNails WatchKit App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		CA13B718274D0602005BC79F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CA13B717274D0602005BC79F /* Assets.xcassets */; };
+		CA13B71E274D0602005BC79F /* MeowNails WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = CA13B71D274D0602005BC79F /* MeowNails WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		CA13B723274D0602005BC79F /* MeowNailsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA13B722274D0602005BC79F /* MeowNailsApp.swift */; };
+		CA13B725274D0602005BC79F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA13B724274D0602005BC79F /* ContentView.swift */; };
+		CA13B727274D0602005BC79F /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA13B726274D0602005BC79F /* NotificationController.swift */; };
+		CA13B729274D0602005BC79F /* NotificationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA13B728274D0602005BC79F /* NotificationView.swift */; };
+		CA13B72B274D0602005BC79F /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA13B72A274D0602005BC79F /* ComplicationController.swift */; };
+		CA13B72D274D0603005BC79F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CA13B72C274D0603005BC79F /* Assets.xcassets */; };
+		CA13B730274D0603005BC79F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CA13B72F274D0603005BC79F /* Preview Assets.xcassets */; };
+		CA13B73C274D0603005BC79F /* MeowNails_WatchKit_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA13B73B274D0603005BC79F /* MeowNails_WatchKit_AppTests.swift */; };
+		CA13B746274D0604005BC79F /* MeowNails_WatchKit_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA13B745274D0604005BC79F /* MeowNails_WatchKit_AppUITests.swift */; };
+		CA13B748274D0604005BC79F /* MeowNails_WatchKit_AppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA13B747274D0604005BC79F /* MeowNails_WatchKit_AppUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CA13B6FF274D0601005BC79F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CA13B6E6274D05FF005BC79F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CA13B6ED274D0600005BC79F;
+			remoteInfo = MeowNails;
+		};
+		CA13B709274D0601005BC79F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CA13B6E6274D05FF005BC79F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CA13B6ED274D0600005BC79F;
+			remoteInfo = MeowNails;
+		};
+		CA13B714274D0601005BC79F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CA13B6E6274D05FF005BC79F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CA13B711274D0601005BC79F;
+			remoteInfo = "MeowNails WatchKit App";
+		};
+		CA13B71F274D0602005BC79F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CA13B6E6274D05FF005BC79F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CA13B71C274D0602005BC79F;
+			remoteInfo = "MeowNails WatchKit Extension";
+		};
+		CA13B738274D0603005BC79F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CA13B6E6274D05FF005BC79F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CA13B71C274D0602005BC79F;
+			remoteInfo = "MeowNails WatchKit Extension";
+		};
+		CA13B742274D0604005BC79F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CA13B6E6274D05FF005BC79F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CA13B711274D0601005BC79F;
+			remoteInfo = "MeowNails WatchKit App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		CA13B74E274D0604005BC79F /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				CA13B71E274D0602005BC79F /* MeowNails WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA13B752274D0604005BC79F /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				CA13B713274D0601005BC79F /* MeowNails WatchKit App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		CA13B6EE274D0600005BC79F /* MeowNails.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MeowNails.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA13B6F1274D0600005BC79F /* MeowNailsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeowNailsApp.swift; sourceTree = "<group>"; };
+		CA13B6F3274D0600005BC79F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		CA13B6F5274D0601005BC79F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CA13B6F8274D0601005BC79F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		CA13B6FE274D0601005BC79F /* MeowNailsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MeowNailsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA13B702274D0601005BC79F /* MeowNailsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeowNailsTests.swift; sourceTree = "<group>"; };
+		CA13B708274D0601005BC79F /* MeowNailsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MeowNailsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA13B70C274D0601005BC79F /* MeowNailsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeowNailsUITests.swift; sourceTree = "<group>"; };
+		CA13B70E274D0601005BC79F /* MeowNailsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeowNailsUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		CA13B712274D0601005BC79F /* MeowNails WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MeowNails WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA13B717274D0602005BC79F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CA13B71D274D0602005BC79F /* MeowNails WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "MeowNails WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA13B722274D0602005BC79F /* MeowNailsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeowNailsApp.swift; sourceTree = "<group>"; };
+		CA13B724274D0602005BC79F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		CA13B726274D0602005BC79F /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		CA13B728274D0602005BC79F /* NotificationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationView.swift; sourceTree = "<group>"; };
+		CA13B72A274D0602005BC79F /* ComplicationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComplicationController.swift; sourceTree = "<group>"; };
+		CA13B72C274D0603005BC79F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CA13B72F274D0603005BC79F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		CA13B731274D0603005BC79F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CA13B732274D0603005BC79F /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		CA13B737274D0603005BC79F /* MeowNails WatchKit AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "MeowNails WatchKit AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA13B73B274D0603005BC79F /* MeowNails_WatchKit_AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeowNails_WatchKit_AppTests.swift; sourceTree = "<group>"; };
+		CA13B741274D0604005BC79F /* MeowNails WatchKit AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "MeowNails WatchKit AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA13B745274D0604005BC79F /* MeowNails_WatchKit_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeowNails_WatchKit_AppUITests.swift; sourceTree = "<group>"; };
+		CA13B747274D0604005BC79F /* MeowNails_WatchKit_AppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeowNails_WatchKit_AppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CA13B6EB274D0600005BC79F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA13B6FB274D0601005BC79F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA13B705274D0601005BC79F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA13B71A274D0602005BC79F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA13B734274D0603005BC79F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA13B73E274D0604005BC79F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CA13B6E5274D05FF005BC79F = {
+			isa = PBXGroup;
+			children = (
+				CA13B6F0274D0600005BC79F /* MeowNails */,
+				CA13B701274D0601005BC79F /* MeowNailsTests */,
+				CA13B70B274D0601005BC79F /* MeowNailsUITests */,
+				CA13B716274D0601005BC79F /* MeowNails WatchKit App */,
+				CA13B721274D0602005BC79F /* MeowNails WatchKit Extension */,
+				CA13B73A274D0603005BC79F /* MeowNails WatchKit AppTests */,
+				CA13B744274D0604005BC79F /* MeowNails WatchKit AppUITests */,
+				CA13B6EF274D0600005BC79F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CA13B6EF274D0600005BC79F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CA13B6EE274D0600005BC79F /* MeowNails.app */,
+				CA13B6FE274D0601005BC79F /* MeowNailsTests.xctest */,
+				CA13B708274D0601005BC79F /* MeowNailsUITests.xctest */,
+				CA13B712274D0601005BC79F /* MeowNails WatchKit App.app */,
+				CA13B71D274D0602005BC79F /* MeowNails WatchKit Extension.appex */,
+				CA13B737274D0603005BC79F /* MeowNails WatchKit AppTests.xctest */,
+				CA13B741274D0604005BC79F /* MeowNails WatchKit AppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CA13B6F0274D0600005BC79F /* MeowNails */ = {
+			isa = PBXGroup;
+			children = (
+				CA13B6F1274D0600005BC79F /* MeowNailsApp.swift */,
+				CA13B6F3274D0600005BC79F /* ContentView.swift */,
+				CA13B6F5274D0601005BC79F /* Assets.xcassets */,
+				CA13B6F7274D0601005BC79F /* Preview Content */,
+			);
+			path = MeowNails;
+			sourceTree = "<group>";
+		};
+		CA13B6F7274D0601005BC79F /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				CA13B6F8274D0601005BC79F /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		CA13B701274D0601005BC79F /* MeowNailsTests */ = {
+			isa = PBXGroup;
+			children = (
+				CA13B702274D0601005BC79F /* MeowNailsTests.swift */,
+			);
+			path = MeowNailsTests;
+			sourceTree = "<group>";
+		};
+		CA13B70B274D0601005BC79F /* MeowNailsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CA13B70C274D0601005BC79F /* MeowNailsUITests.swift */,
+				CA13B70E274D0601005BC79F /* MeowNailsUITestsLaunchTests.swift */,
+			);
+			path = MeowNailsUITests;
+			sourceTree = "<group>";
+		};
+		CA13B716274D0601005BC79F /* MeowNails WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				CA13B717274D0602005BC79F /* Assets.xcassets */,
+			);
+			path = "MeowNails WatchKit App";
+			sourceTree = "<group>";
+		};
+		CA13B721274D0602005BC79F /* MeowNails WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				CA13B722274D0602005BC79F /* MeowNailsApp.swift */,
+				CA13B724274D0602005BC79F /* ContentView.swift */,
+				CA13B726274D0602005BC79F /* NotificationController.swift */,
+				CA13B728274D0602005BC79F /* NotificationView.swift */,
+				CA13B72A274D0602005BC79F /* ComplicationController.swift */,
+				CA13B72C274D0603005BC79F /* Assets.xcassets */,
+				CA13B731274D0603005BC79F /* Info.plist */,
+				CA13B732274D0603005BC79F /* PushNotificationPayload.apns */,
+				CA13B72E274D0603005BC79F /* Preview Content */,
+			);
+			path = "MeowNails WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		CA13B72E274D0603005BC79F /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				CA13B72F274D0603005BC79F /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		CA13B73A274D0603005BC79F /* MeowNails WatchKit AppTests */ = {
+			isa = PBXGroup;
+			children = (
+				CA13B73B274D0603005BC79F /* MeowNails_WatchKit_AppTests.swift */,
+			);
+			path = "MeowNails WatchKit AppTests";
+			sourceTree = "<group>";
+		};
+		CA13B744274D0604005BC79F /* MeowNails WatchKit AppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CA13B745274D0604005BC79F /* MeowNails_WatchKit_AppUITests.swift */,
+				CA13B747274D0604005BC79F /* MeowNails_WatchKit_AppUITestsLaunchTests.swift */,
+			);
+			path = "MeowNails WatchKit AppUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CA13B6ED274D0600005BC79F /* MeowNails */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CA13B753274D0604005BC79F /* Build configuration list for PBXNativeTarget "MeowNails" */;
+			buildPhases = (
+				CA13B6EA274D0600005BC79F /* Sources */,
+				CA13B6EB274D0600005BC79F /* Frameworks */,
+				CA13B6EC274D0600005BC79F /* Resources */,
+				CA13B752274D0604005BC79F /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CA13B715274D0601005BC79F /* PBXTargetDependency */,
+			);
+			name = MeowNails;
+			productName = MeowNails;
+			productReference = CA13B6EE274D0600005BC79F /* MeowNails.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CA13B6FD274D0601005BC79F /* MeowNailsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CA13B756274D0604005BC79F /* Build configuration list for PBXNativeTarget "MeowNailsTests" */;
+			buildPhases = (
+				CA13B6FA274D0601005BC79F /* Sources */,
+				CA13B6FB274D0601005BC79F /* Frameworks */,
+				CA13B6FC274D0601005BC79F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CA13B700274D0601005BC79F /* PBXTargetDependency */,
+			);
+			name = MeowNailsTests;
+			productName = MeowNailsTests;
+			productReference = CA13B6FE274D0601005BC79F /* MeowNailsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CA13B707274D0601005BC79F /* MeowNailsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CA13B759274D0604005BC79F /* Build configuration list for PBXNativeTarget "MeowNailsUITests" */;
+			buildPhases = (
+				CA13B704274D0601005BC79F /* Sources */,
+				CA13B705274D0601005BC79F /* Frameworks */,
+				CA13B706274D0601005BC79F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CA13B70A274D0601005BC79F /* PBXTargetDependency */,
+			);
+			name = MeowNailsUITests;
+			productName = MeowNailsUITests;
+			productReference = CA13B708274D0601005BC79F /* MeowNailsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		CA13B711274D0601005BC79F /* MeowNails WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CA13B74F274D0604005BC79F /* Build configuration list for PBXNativeTarget "MeowNails WatchKit App" */;
+			buildPhases = (
+				CA13B710274D0601005BC79F /* Resources */,
+				CA13B74E274D0604005BC79F /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CA13B720274D0602005BC79F /* PBXTargetDependency */,
+			);
+			name = "MeowNails WatchKit App";
+			productName = "MeowNails WatchKit App";
+			productReference = CA13B712274D0601005BC79F /* MeowNails WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		CA13B71C274D0602005BC79F /* MeowNails WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CA13B74B274D0604005BC79F /* Build configuration list for PBXNativeTarget "MeowNails WatchKit Extension" */;
+			buildPhases = (
+				CA13B719274D0602005BC79F /* Sources */,
+				CA13B71A274D0602005BC79F /* Frameworks */,
+				CA13B71B274D0602005BC79F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "MeowNails WatchKit Extension";
+			productName = "MeowNails WatchKit Extension";
+			productReference = CA13B71D274D0602005BC79F /* MeowNails WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+		CA13B736274D0603005BC79F /* MeowNails WatchKit AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CA13B75C274D0604005BC79F /* Build configuration list for PBXNativeTarget "MeowNails WatchKit AppTests" */;
+			buildPhases = (
+				CA13B733274D0603005BC79F /* Sources */,
+				CA13B734274D0603005BC79F /* Frameworks */,
+				CA13B735274D0603005BC79F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CA13B739274D0603005BC79F /* PBXTargetDependency */,
+			);
+			name = "MeowNails WatchKit AppTests";
+			productName = "MeowNails WatchKit AppTests";
+			productReference = CA13B737274D0603005BC79F /* MeowNails WatchKit AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CA13B740274D0604005BC79F /* MeowNails WatchKit AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CA13B75F274D0604005BC79F /* Build configuration list for PBXNativeTarget "MeowNails WatchKit AppUITests" */;
+			buildPhases = (
+				CA13B73D274D0604005BC79F /* Sources */,
+				CA13B73E274D0604005BC79F /* Frameworks */,
+				CA13B73F274D0604005BC79F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CA13B743274D0604005BC79F /* PBXTargetDependency */,
+			);
+			name = "MeowNails WatchKit AppUITests";
+			productName = "MeowNails WatchKit AppUITests";
+			productReference = CA13B741274D0604005BC79F /* MeowNails WatchKit AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CA13B6E6274D05FF005BC79F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1310;
+				LastUpgradeCheck = 1310;
+				TargetAttributes = {
+					CA13B6ED274D0600005BC79F = {
+						CreatedOnToolsVersion = 13.1;
+					};
+					CA13B6FD274D0601005BC79F = {
+						CreatedOnToolsVersion = 13.1;
+						TestTargetID = CA13B6ED274D0600005BC79F;
+					};
+					CA13B707274D0601005BC79F = {
+						CreatedOnToolsVersion = 13.1;
+						TestTargetID = CA13B6ED274D0600005BC79F;
+					};
+					CA13B711274D0601005BC79F = {
+						CreatedOnToolsVersion = 13.1;
+					};
+					CA13B71C274D0602005BC79F = {
+						CreatedOnToolsVersion = 13.1;
+					};
+					CA13B736274D0603005BC79F = {
+						CreatedOnToolsVersion = 13.1;
+						TestTargetID = CA13B71C274D0602005BC79F;
+					};
+					CA13B740274D0604005BC79F = {
+						CreatedOnToolsVersion = 13.1;
+						TestTargetID = CA13B711274D0601005BC79F;
+					};
+				};
+			};
+			buildConfigurationList = CA13B6E9274D05FF005BC79F /* Build configuration list for PBXProject "MeowNails" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CA13B6E5274D05FF005BC79F;
+			productRefGroup = CA13B6EF274D0600005BC79F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CA13B6ED274D0600005BC79F /* MeowNails */,
+				CA13B6FD274D0601005BC79F /* MeowNailsTests */,
+				CA13B707274D0601005BC79F /* MeowNailsUITests */,
+				CA13B711274D0601005BC79F /* MeowNails WatchKit App */,
+				CA13B71C274D0602005BC79F /* MeowNails WatchKit Extension */,
+				CA13B736274D0603005BC79F /* MeowNails WatchKit AppTests */,
+				CA13B740274D0604005BC79F /* MeowNails WatchKit AppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CA13B6EC274D0600005BC79F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA13B6F9274D0601005BC79F /* Preview Assets.xcassets in Resources */,
+				CA13B6F6274D0601005BC79F /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA13B6FC274D0601005BC79F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA13B706274D0601005BC79F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA13B710274D0601005BC79F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA13B718274D0602005BC79F /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA13B71B274D0602005BC79F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA13B730274D0603005BC79F /* Preview Assets.xcassets in Resources */,
+				CA13B72D274D0603005BC79F /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA13B735274D0603005BC79F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA13B73F274D0604005BC79F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CA13B6EA274D0600005BC79F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA13B6F4274D0600005BC79F /* ContentView.swift in Sources */,
+				CA13B6F2274D0600005BC79F /* MeowNailsApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA13B6FA274D0601005BC79F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA13B703274D0601005BC79F /* MeowNailsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA13B704274D0601005BC79F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA13B70F274D0601005BC79F /* MeowNailsUITestsLaunchTests.swift in Sources */,
+				CA13B70D274D0601005BC79F /* MeowNailsUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA13B719274D0602005BC79F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA13B727274D0602005BC79F /* NotificationController.swift in Sources */,
+				CA13B725274D0602005BC79F /* ContentView.swift in Sources */,
+				CA13B72B274D0602005BC79F /* ComplicationController.swift in Sources */,
+				CA13B723274D0602005BC79F /* MeowNailsApp.swift in Sources */,
+				CA13B729274D0602005BC79F /* NotificationView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA13B733274D0603005BC79F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA13B73C274D0603005BC79F /* MeowNails_WatchKit_AppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA13B73D274D0604005BC79F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA13B746274D0604005BC79F /* MeowNails_WatchKit_AppUITests.swift in Sources */,
+				CA13B748274D0604005BC79F /* MeowNails_WatchKit_AppUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CA13B700274D0601005BC79F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CA13B6ED274D0600005BC79F /* MeowNails */;
+			targetProxy = CA13B6FF274D0601005BC79F /* PBXContainerItemProxy */;
+		};
+		CA13B70A274D0601005BC79F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CA13B6ED274D0600005BC79F /* MeowNails */;
+			targetProxy = CA13B709274D0601005BC79F /* PBXContainerItemProxy */;
+		};
+		CA13B715274D0601005BC79F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CA13B711274D0601005BC79F /* MeowNails WatchKit App */;
+			targetProxy = CA13B714274D0601005BC79F /* PBXContainerItemProxy */;
+		};
+		CA13B720274D0602005BC79F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CA13B71C274D0602005BC79F /* MeowNails WatchKit Extension */;
+			targetProxy = CA13B71F274D0602005BC79F /* PBXContainerItemProxy */;
+		};
+		CA13B739274D0603005BC79F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CA13B71C274D0602005BC79F /* MeowNails WatchKit Extension */;
+			targetProxy = CA13B738274D0603005BC79F /* PBXContainerItemProxy */;
+		};
+		CA13B743274D0604005BC79F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CA13B711274D0601005BC79F /* MeowNails WatchKit App */;
+			targetProxy = CA13B742274D0604005BC79F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		CA13B749274D0604005BC79F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CA13B74A274D0604005BC79F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		CA13B74C274D0604005BC79F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MeowNails WatchKit Extension/Preview Content\"";
+				DEVELOPMENT_TEAM = 9258H7N9X2;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "MeowNails WatchKit Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "MeowNails WatchKit Extension";
+				INFOPLIST_KEY_CLKComplicationPrincipalClass = "$(PRODUCT_MODULE_NAME).ComplicationController";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_WKRunsIndependentlyOfCompanionApp = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.imranhajiyev.MeowNails.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 8.0;
+			};
+			name = Debug;
+		};
+		CA13B74D274D0604005BC79F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MeowNails WatchKit Extension/Preview Content\"";
+				DEVELOPMENT_TEAM = 9258H7N9X2;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "MeowNails WatchKit Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "MeowNails WatchKit Extension";
+				INFOPLIST_KEY_CLKComplicationPrincipalClass = "$(PRODUCT_MODULE_NAME).ComplicationController";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_WKRunsIndependentlyOfCompanionApp = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.imranhajiyev.MeowNails.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 8.0;
+			};
+			name = Release;
+		};
+		CA13B750274D0604005BC79F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9258H7N9X2;
+				GENERATE_INFOPLIST_FILE = YES;
+				IBSC_MODULE = MeowNails_WatchKit_Extension;
+				INFOPLIST_KEY_CFBundleDisplayName = "MeowNails WatchKit App";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = com.imranhajiyev.MeowNails;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.imranhajiyev.MeowNails.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 8.0;
+			};
+			name = Debug;
+		};
+		CA13B751274D0604005BC79F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9258H7N9X2;
+				GENERATE_INFOPLIST_FILE = YES;
+				IBSC_MODULE = MeowNails_WatchKit_Extension;
+				INFOPLIST_KEY_CFBundleDisplayName = "MeowNails WatchKit App";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = com.imranhajiyev.MeowNails;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.imranhajiyev.MeowNails.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 8.0;
+			};
+			name = Release;
+		};
+		CA13B754274D0604005BC79F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MeowNails/Preview Content\"";
+				DEVELOPMENT_TEAM = 9258H7N9X2;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.imranhajiyev.MeowNails;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CA13B755274D0604005BC79F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MeowNails/Preview Content\"";
+				DEVELOPMENT_TEAM = 9258H7N9X2;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.imranhajiyev.MeowNails;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CA13B757274D0604005BC79F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9258H7N9X2;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.imranhajiyev.MeowNailsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MeowNails.app/MeowNails";
+			};
+			name = Debug;
+		};
+		CA13B758274D0604005BC79F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9258H7N9X2;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.imranhajiyev.MeowNailsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MeowNails.app/MeowNails";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CA13B75A274D0604005BC79F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9258H7N9X2;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.imranhajiyev.MeowNailsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MeowNails;
+			};
+			name = Debug;
+		};
+		CA13B75B274D0604005BC79F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9258H7N9X2;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.imranhajiyev.MeowNailsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MeowNails;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CA13B75D274D0604005BC79F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9258H7N9X2;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.imranhajiyev.MeowNails-WatchKit-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MeowNails WatchKit Extension.appex/MeowNails WatchKit Extension";
+				WATCHOS_DEPLOYMENT_TARGET = 8.0;
+			};
+			name = Debug;
+		};
+		CA13B75E274D0604005BC79F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9258H7N9X2;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.imranhajiyev.MeowNails-WatchKit-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MeowNails WatchKit Extension.appex/MeowNails WatchKit Extension";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 8.0;
+			};
+			name = Release;
+		};
+		CA13B760274D0604005BC79F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9258H7N9X2;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.imranhajiyev.MeowNails-WatchKit-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "MeowNails WatchKit App";
+				WATCHOS_DEPLOYMENT_TARGET = 8.0;
+			};
+			name = Debug;
+		};
+		CA13B761274D0604005BC79F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9258H7N9X2;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.imranhajiyev.MeowNails-WatchKit-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "MeowNails WatchKit App";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 8.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CA13B6E9274D05FF005BC79F /* Build configuration list for PBXProject "MeowNails" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA13B749274D0604005BC79F /* Debug */,
+				CA13B74A274D0604005BC79F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CA13B74B274D0604005BC79F /* Build configuration list for PBXNativeTarget "MeowNails WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA13B74C274D0604005BC79F /* Debug */,
+				CA13B74D274D0604005BC79F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CA13B74F274D0604005BC79F /* Build configuration list for PBXNativeTarget "MeowNails WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA13B750274D0604005BC79F /* Debug */,
+				CA13B751274D0604005BC79F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CA13B753274D0604005BC79F /* Build configuration list for PBXNativeTarget "MeowNails" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA13B754274D0604005BC79F /* Debug */,
+				CA13B755274D0604005BC79F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CA13B756274D0604005BC79F /* Build configuration list for PBXNativeTarget "MeowNailsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA13B757274D0604005BC79F /* Debug */,
+				CA13B758274D0604005BC79F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CA13B759274D0604005BC79F /* Build configuration list for PBXNativeTarget "MeowNailsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA13B75A274D0604005BC79F /* Debug */,
+				CA13B75B274D0604005BC79F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CA13B75C274D0604005BC79F /* Build configuration list for PBXNativeTarget "MeowNails WatchKit AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA13B75D274D0604005BC79F /* Debug */,
+				CA13B75E274D0604005BC79F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CA13B75F274D0604005BC79F /* Build configuration list for PBXNativeTarget "MeowNails WatchKit AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA13B760274D0604005BC79F /* Debug */,
+				CA13B761274D0604005BC79F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CA13B6E6274D05FF005BC79F /* Project object */;
+}
