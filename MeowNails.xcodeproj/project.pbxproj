@@ -28,6 +28,8 @@
 		CA13B746274D0604005BC79F /* MeowNails_WatchKit_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA13B745274D0604005BC79F /* MeowNails_WatchKit_AppUITests.swift */; };
 		CA13B748274D0604005BC79F /* MeowNails_WatchKit_AppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA13B747274D0604005BC79F /* MeowNails_WatchKit_AppUITestsLaunchTests.swift */; };
 		CA13B765274D08D9005BC79F /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA13B764274D08D9005BC79F /* Launch Screen.storyboard */; };
+		CA164E5C274ED221005CFF84 /* ProceduresListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA164E5B274ED221005CFF84 /* ProceduresListView.swift */; };
+		CA164E5E274EE4C9005CFF84 /* TimePickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA164E5D274EE4C9005CFF84 /* TimePickerView.swift */; };
 		CA8D87DF274D7EEB00744F31 /* ContactInformationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA8D87DE274D7EEB00744F31 /* ContactInformationView.swift */; };
 		CA8D87E1274D7F0400744F31 /* CatalogInformationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA8D87E0274D7F0400744F31 /* CatalogInformationView.swift */; };
 		CA8D87E3274D89FC00744F31 /* AvailabilityEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA8D87E2274D89FC00744F31 /* AvailabilityEnum.swift */; };
@@ -133,6 +135,8 @@
 		CA13B745274D0604005BC79F /* MeowNails_WatchKit_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeowNails_WatchKit_AppUITests.swift; sourceTree = "<group>"; };
 		CA13B747274D0604005BC79F /* MeowNails_WatchKit_AppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeowNails_WatchKit_AppUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		CA13B764274D08D9005BC79F /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		CA164E5B274ED221005CFF84 /* ProceduresListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProceduresListView.swift; sourceTree = "<group>"; };
+		CA164E5D274EE4C9005CFF84 /* TimePickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimePickerView.swift; sourceTree = "<group>"; };
 		CA8D87DE274D7EEB00744F31 /* ContactInformationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactInformationView.swift; sourceTree = "<group>"; };
 		CA8D87E0274D7F0400744F31 /* CatalogInformationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatalogInformationView.swift; sourceTree = "<group>"; };
 		CA8D87E2274D89FC00744F31 /* AvailabilityEnum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvailabilityEnum.swift; sourceTree = "<group>"; };
@@ -217,11 +221,9 @@
 			isa = PBXGroup;
 			children = (
 				CA13B6F1274D0600005BC79F /* MeowNailsApp.swift */,
-				CA13B6F3274D0600005BC79F /* ContentView.swift */,
-				CAB2B24E274D355900A2DC40 /* BookingView.swift */,
-				CA8D87E2274D89FC00744F31 /* AvailabilityEnum.swift */,
-				CA8D87E0274D7F0400744F31 /* CatalogInformationView.swift */,
-				CA8D87DE274D7EEB00744F31 /* ContactInformationView.swift */,
+				CA164E5F274EF1E9005CFF84 /* Views */,
+				CA164E60274EF1F5005CFF84 /* Enums */,
+				CA164E61274EF1FE005CFF84 /* Modals */,
 				CA13B764274D08D9005BC79F /* Launch Screen.storyboard */,
 				CA13B6F5274D0601005BC79F /* Assets.xcassets */,
 				CA13B6F7274D0601005BC79F /* Preview Content */,
@@ -301,6 +303,34 @@
 				CA13B747274D0604005BC79F /* MeowNails_WatchKit_AppUITestsLaunchTests.swift */,
 			);
 			path = "MeowNails WatchKit AppUITests";
+			sourceTree = "<group>";
+		};
+		CA164E5F274EF1E9005CFF84 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				CA13B6F3274D0600005BC79F /* ContentView.swift */,
+				CAB2B24E274D355900A2DC40 /* BookingView.swift */,
+				CA164E5B274ED221005CFF84 /* ProceduresListView.swift */,
+				CA164E5D274EE4C9005CFF84 /* TimePickerView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		CA164E60274EF1F5005CFF84 /* Enums */ = {
+			isa = PBXGroup;
+			children = (
+				CA8D87E2274D89FC00744F31 /* AvailabilityEnum.swift */,
+			);
+			path = Enums;
+			sourceTree = "<group>";
+		};
+		CA164E61274EF1FE005CFF84 /* Modals */ = {
+			isa = PBXGroup;
+			children = (
+				CA8D87E0274D7F0400744F31 /* CatalogInformationView.swift */,
+				CA8D87DE274D7EEB00744F31 /* ContactInformationView.swift */,
+			);
+			path = Modals;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -561,6 +591,8 @@
 				CA13B6F2274D0600005BC79F /* MeowNailsApp.swift in Sources */,
 				CA8D87E1274D7F0400744F31 /* CatalogInformationView.swift in Sources */,
 				CA8D87E3274D89FC00744F31 /* AvailabilityEnum.swift in Sources */,
+				CA164E5C274ED221005CFF84 /* ProceduresListView.swift in Sources */,
+				CA164E5E274EE4C9005CFF84 /* TimePickerView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
