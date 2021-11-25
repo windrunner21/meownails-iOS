@@ -30,6 +30,7 @@
 		CA13B765274D08D9005BC79F /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA13B764274D08D9005BC79F /* Launch Screen.storyboard */; };
 		CA164E5C274ED221005CFF84 /* ProceduresListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA164E5B274ED221005CFF84 /* ProceduresListView.swift */; };
 		CA164E5E274EE4C9005CFF84 /* TimePickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA164E5D274EE4C9005CFF84 /* TimePickerView.swift */; };
+		CA38B811274FF5D900394C16 /* BookingManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA38B810274FF5D900394C16 /* BookingManager.swift */; };
 		CA8D87DF274D7EEB00744F31 /* ContactInformationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA8D87DE274D7EEB00744F31 /* ContactInformationView.swift */; };
 		CA8D87E1274D7F0400744F31 /* CatalogInformationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA8D87E0274D7F0400744F31 /* CatalogInformationView.swift */; };
 		CA8D87E3274D89FC00744F31 /* AvailabilityEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA8D87E2274D89FC00744F31 /* AvailabilityEnum.swift */; };
@@ -137,6 +138,7 @@
 		CA13B764274D08D9005BC79F /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
 		CA164E5B274ED221005CFF84 /* ProceduresListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProceduresListView.swift; sourceTree = "<group>"; };
 		CA164E5D274EE4C9005CFF84 /* TimePickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimePickerView.swift; sourceTree = "<group>"; };
+		CA38B810274FF5D900394C16 /* BookingManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookingManager.swift; sourceTree = "<group>"; };
 		CA8D87DE274D7EEB00744F31 /* ContactInformationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactInformationView.swift; sourceTree = "<group>"; };
 		CA8D87E0274D7F0400744F31 /* CatalogInformationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatalogInformationView.swift; sourceTree = "<group>"; };
 		CA8D87E2274D89FC00744F31 /* AvailabilityEnum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvailabilityEnum.swift; sourceTree = "<group>"; };
@@ -221,6 +223,7 @@
 			isa = PBXGroup;
 			children = (
 				CA13B6F1274D0600005BC79F /* MeowNailsApp.swift */,
+				CA38B810274FF5D900394C16 /* BookingManager.swift */,
 				CA164E5F274EF1E9005CFF84 /* Views */,
 				CA164E60274EF1F5005CFF84 /* Enums */,
 				CA164E61274EF1FE005CFF84 /* Modals */,
@@ -587,6 +590,7 @@
 			files = (
 				CA8D87DF274D7EEB00744F31 /* ContactInformationView.swift in Sources */,
 				CAB2B24F274D355900A2DC40 /* BookingView.swift in Sources */,
+				CA38B811274FF5D900394C16 /* BookingManager.swift in Sources */,
 				CA13B6F4274D0600005BC79F /* ContentView.swift in Sources */,
 				CA13B6F2274D0600005BC79F /* MeowNailsApp.swift in Sources */,
 				CA8D87E1274D7F0400744F31 /* CatalogInformationView.swift in Sources */,

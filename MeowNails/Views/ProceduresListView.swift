@@ -36,16 +36,16 @@ struct ProceduresListView: View {
             "price": "25 ₼",
             "icon": "b.square.fill",
             "color": "BuildUpColor"
-        ],
+        ]
+    ]
+    
+    let additionalProcedures: [Procedure] = [
         [
             "name": "Paraffin",
             "price": "10 ₼",
             "icon": "p.square.fill",
             "color": "ParaffinColor"
-        ]
-    ]
-    
-    let additionalProcedures: [Procedure] = [
+        ],
         [
             "name": "Design",
             "price": "5 ₼",

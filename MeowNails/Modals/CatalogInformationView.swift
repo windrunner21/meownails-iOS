@@ -227,7 +227,7 @@ struct CatalogInformationView: View {
                                 }
                                 .cornerRadius(10)
                             }
-                            Text("main procedure")
+                            Text("additional procedure")
                                 .textCase(.uppercase)
                                 .foregroundColor(.white)
                                 .font(.system(size: 10))
