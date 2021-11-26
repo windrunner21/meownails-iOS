@@ -8,14 +8,10 @@
 import SwiftUI
 
 struct BookingView: View {
-    let localDateFormatter = DateFormatter()
     @State private var date = Date()
-    @State private var time: String? = nil
     @State private var showContactInfoModal: Bool = false
     @State private var showCatalogHelpModal: Bool = false
-    @State private var isAvailableToBook: Availability = .unknown
-    @State private var mainSelected: String? = nil
-    @State private var additionalSelected: String? = nil
+    @EnvironmentObject var manager: BookingManager
     
     var body: some View {
         NavigationView {
@@ -37,7 +33,7 @@ struct BookingView: View {
                     .padding()
                                     
                     // List of Procedures SubView UI
-                    ProceduresListView(mainSelected: $mainSelected, additionalSelected: $additionalSelected)
+                    ProceduresListView()
                   
                     // Booking Details Controller UI
                     HStack {
@@ -61,25 +57,22 @@ struct BookingView: View {
                         })
                         .id(date)
                         .onChange(of: date, perform: { value in
-                            localDateFormatter.dateStyle = .medium
-                            let byLocalTimeZone = localDateFormatter.string(from: value)
-                            
-                            print(byLocalTimeZone)
+                            manager.setDateBooked(date)
                         })
                         .padding()
                     
-                    TimePickerView(selection: $time, isAvailable: $isAvailableToBook)
+                    TimePickerView()
                         .padding([.horizontal, .bottom])
                     
-                    if isAvailableToBook != .unknown {
+                    if manager.isAvailableToBook != .unknown {
                         HStack {
                             Spacer()
-                            if isAvailableToBook == .available {
+                            if manager.isAvailableToBook == .available {
                                 Text("Time slot is available")
                                 Image(systemName: "checkmark.diamond.fill")
                                 .foregroundColor(.green)
                             }
-                            if isAvailableToBook == .unavailable {
+                            if manager.isAvailableToBook == .unavailable {
                                 Text("Time slot is unavailable")
                                 Image(systemName: "xmark.diamond.fill")
                                 .foregroundColor(.red)
@@ -99,9 +92,10 @@ struct BookingView: View {
                     }
                     .foregroundColor(.white)
                     .padding()
-                    .background(Color.blue)
+                    .background(manager.phaseI_disabled ? .gray.opacity(0.5) : .blue)
                     .cornerRadius(10)
                     .padding()
+                    .disabled(manager.phaseI_disabled)
 
                     Spacer()
                 }
@@ -109,7 +103,7 @@ struct BookingView: View {
                     CatalogInformationView(isPresented: $showCatalogHelpModal)
                 })
                 .sheet(isPresented: $showContactInfoModal, onDismiss: {print("closed contact info")}, content: {
-                    ContactInformationView(isPresented: $showContactInfoModal)
+                    ContactInformationView(manager: manager, isPresented: $showContactInfoModal)
                 })
             }
             .navigationTitle("Booking")
@@ -120,5 +114,6 @@ struct BookingView: View {
 struct BookingView_Previews: PreviewProvider {
     static var previews: some View {
         BookingView()
+            .environmentObject(BookingManager())
     }
 }

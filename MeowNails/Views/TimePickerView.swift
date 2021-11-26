@@ -8,8 +8,8 @@
 import SwiftUI
 
 struct TimePickerView: View {
-    @Binding var selection: String?
-    @Binding var isAvailable: Availability
+    @EnvironmentObject var manager: BookingManager
+    
     let timeSlotsProvided: [String] = [
         "10:00",
         "11:30",
@@ -35,19 +35,19 @@ struct TimePickerView: View {
                         // Button genereated
                         Button(action: {
                             // to select and dis-select
-                            if selection == timeSlot {
-                                selection = nil
-                                isAvailable = .unknown
+                            if manager.time == timeSlot {
+                                manager.setTimeBooked(nil)
+                                manager.setBookingAvailability(.unknown)
                             } else {
-                                selection = timeSlot
-                                isAvailable = .available
+                                manager.setTimeBooked(timeSlot)
+                                manager.setBookingAvailability(.available)
                                 
-                                if timeSlot == "11:30" {
-                                    isAvailable = .unavailable
+                                if manager.time == "11:30" {
+                                    manager.setBookingAvailability(.unavailable)
                                 }
                             }
                         }) {
-                            if selection == timeSlot {
+                            if manager.time == timeSlot {
                                 Text(timeSlot)
                                     .foregroundColor(.white)
                                     .padding()
@@ -69,6 +69,7 @@ struct TimePickerView: View {
 
 struct TimePickerView_Previews: PreviewProvider {
     static var previews: some View {
-        TimePickerView(selection: .constant(nil), isAvailable: .constant(.unknown))
+        TimePickerView()
+            .environmentObject(BookingManager())
     }
 }

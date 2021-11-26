@@ -8,8 +8,7 @@
 import SwiftUI
 
 struct ProceduresListView: View {
-    @Binding var mainSelected: String?
-    @Binding var additionalSelected: String?
+    @EnvironmentObject var manager: BookingManager
     
     typealias Procedure = [String: String]
     let mainProcedures: [Procedure] = [
@@ -71,13 +70,13 @@ struct ProceduresListView: View {
                     // Button genereated
                     Button(action: {
                         // to select and dis-select
-                        if mainSelected == procedure["name"] {
-                            mainSelected = nil
+                        if manager.mainProcedure == procedure["name"] {
+                            manager.setMainProcedure(nil)
                         } else {
-                            mainSelected = procedure["name"]
+                            manager.setMainProcedure(procedure["name"])
                         }
                     }) {
-                        if mainSelected == procedure["name"]  {
+                        if manager.mainProcedure == procedure["name"]  {
                             HStack {
                                 Image(systemName: "checkmark.square.fill")
                                     .font(.system(size: 30))
@@ -128,13 +127,13 @@ struct ProceduresListView: View {
                     // Button genereated
                     Button(action: {
                         // to select and dis-select
-                        if additionalSelected == procedure["name"] {
-                            additionalSelected = nil
+                        if manager.additionalProcedure == procedure["name"] {
+                            manager.setAdditionalProcedure(nil)
                         } else {
-                            additionalSelected = procedure["name"]
+                            manager.setAdditionalProcedure(procedure["name"])
                         }
                     }) {
-                        if additionalSelected == procedure["name"] {
+                        if manager.additionalProcedure == procedure["name"] {
                             HStack {
                                 Image(systemName: "checkmark.square.fill")
                                     .font(.system(size: 30))
@@ -176,6 +175,7 @@ struct ProceduresListView: View {
 
 struct ProceduresListView_Previews: PreviewProvider {
     static var previews: some View {
-        ProceduresListView(mainSelected: .constant(nil), additionalSelected: .constant(nil))
+        ProceduresListView()
+            .environmentObject(BookingManager())
     }
 }

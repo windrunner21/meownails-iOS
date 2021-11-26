@@ -11,17 +11,20 @@ class BookingManager: ObservableObject {
     // identifier
     let identifier = UUID()
     
-    // published properties
+    // published procedure properties
     @Published var mainProcedure: String?
     @Published var additionalProcedure: String?
     
-    // user properties
-    var fullName: String
-    var phoneNumber: String
+    // published booking properties
+    @Published var time: String?
+    @Published var isAvailableToBook: Availability
+    
+    // published user properties
+    @Published var fullName: String
+    @Published var phoneNumber: String
     
     // booking properties
-    var date: String
-    var time: String
+    var date: Date?
     
     // computed properties
     var totalPrice: Int {
@@ -44,12 +47,28 @@ class BookingManager: ObservableObject {
         return price
     }
     
-    // initializer
+    // disable continue button to move to contact information activity
+    var phaseI_disabled: Bool {
+        if mainProcedure == nil && additionalProcedure == nil || time == nil || isAvailableToBook != .available {
+            return true
+        }
+        
+        return false
+    }
+    
+    // disable complete button to leave booking request to database
+    var phaseII_disabled: Bool {
+        if fullName == String() || phoneNumber.count < 13 {
+            return true
+        }
+        
+        return false
+    }
+    
     init() {
-        self.fullName = String()
-        self.phoneNumber = String()
-        self.date = String()
-        self.time = String()
+        isAvailableToBook = .unknown
+        phoneNumber = "+994"
+        fullName = String()
     }
     
     // setting user's full name
@@ -63,12 +82,45 @@ class BookingManager: ObservableObject {
     }
     
     // setting date booked by user
-    func setDateBooked(_ dateEntered: String) {
+    func setDateBooked(_ dateEntered: Date?) {
         self.date = dateEntered
     }
     
+    // gettting date booked by user in local time zone format
+    func getDateBooked() -> String {
+        let localDateFormatter = DateFormatter()
+        localDateFormatter.dateStyle = .medium
+        let byLocalTimeZone = localDateFormatter.string(from: self.date ?? Date())
+        
+        return byLocalTimeZone
+    }
+    
     // setting time booked by user
-    func setTimeBooked(_ timeEntered: String) {
+    func setTimeBooked(_ timeEntered: String?) {
         self.time = timeEntered
+    }
+    
+    // setting main procedure
+    func setMainProcedure(_ mainEntered: String?) {
+        self.mainProcedure = mainEntered
+    }
+    
+    // setting additional procedure
+    func setAdditionalProcedure(_ additionalEntered: String?) {
+        self.additionalProcedure = additionalEntered
+    }
+    
+    func setBookingAvailability(_ availability: Availability) {
+        self.isAvailableToBook = availability
+    }
+    
+    func reInitialize() {
+        self.mainProcedure = nil
+        self.additionalProcedure = nil
+        self.time = nil
+        self.date = nil
+        self.isAvailableToBook = .unknown
+        self.fullName = String()
+        self.phoneNumber = "+994"
     }
 }
